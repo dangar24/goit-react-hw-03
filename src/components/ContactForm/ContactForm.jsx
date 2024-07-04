@@ -1,6 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { nanoid } from 'nanoid';
-import css from './ContackForm.module.css'
+import css from './ContactForm.module.css'
 import * as Yup from 'yup';
 
 const validationSchema = Yup.object().shape({

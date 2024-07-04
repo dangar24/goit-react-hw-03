@@ -1,6 +1,6 @@
-import ContackList from "./ContackList/ContackList";
+import ContactList from "./ContactList/ContactList";
 import SearchBox from "./SearchBox/SearchBox";
-import ContackForm from "./components/ContackForm/ContackForm";
+import ContactForm from "./components/ContactForm/ContactForm";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -35,9 +35,9 @@ function App() {
 
   return <div>
   <h1>Phonebook</h1>
-    <ContackForm addContact={addContact} />
+    <ContactForm addContact={addContact} />
   <SearchBox value={filter} onFilter={setFilter} />
-    <ContackList contacts={filtredCont} removeContact={deleteContact}/>
+    <ContactList contacts={filtredCont} removeContact={deleteContact}/>
   </div>
 }
 

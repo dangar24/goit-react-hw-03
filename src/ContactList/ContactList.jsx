@@ -1,5 +1,5 @@
 import Contact from "../Contact/Contact"
-import css from "./ContackList.module.css"
+import css from "./ContactList.module.css"
 
 export default function ContackList({ contacts, removeContact }) {
     return <ul className={css.list}>
